@@ -23,21 +23,4 @@ function App() {
 }
 
 export default App;
-=======
 
-import React from 'react'
-
-const App = () => {
-
-
-
-
- return <>
- 
- 
- <h1>Omar</h1>
- </>
-}
-
-export default App
->>>>>>> 4a3f6748823ebb03b1a8c2954ff7fde88fcaf84a
