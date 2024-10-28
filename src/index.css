@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+.redborder{
+  border: 3px solid red;
+}
+
+.greenborder{
+  border: 5px solid green;
+}
+
+
+
+.navLinks {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+.overlay {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.952) 62%, #2e0000cb);
+}
+
+.sizeBackText {
+  color: transparent;
+  -webkit-text-stroke: 2px #60171967;
+  font-weight: bold;
+  font-size: 300px;
+}
+
