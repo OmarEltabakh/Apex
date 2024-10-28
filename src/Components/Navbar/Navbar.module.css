@@ -1,0 +1,40 @@
+.newNav > li > a{
+    font-size: 17px;
+    font-weight: 600;
+    }
+
+    @media (max-width:767px) {
+      .newNav > li > a{
+        width: fit-content;
+        }
+      .newNav{
+        display: flex !important;
+        
+      }
+      
+    }
+    @media (max-width:767px) {
+      .social > li > a{
+        width: fit-content;
+        }
+      .social{
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: center;
+      }
+      
+    }
+
+    .header{
+        padding: 15px 117px !important;
+        background-color: transparent;
+        position: relative;
+      }
+      @media (max-width:767px) {
+        .header {
+            padding: 0px 0px;
+        }
+      }
+      
+    
