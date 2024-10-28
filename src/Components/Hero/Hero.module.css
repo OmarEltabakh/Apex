@@ -1,0 +1,29 @@
+.signInBtn{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 0px 10px 0px 0px ;
+    transition: .5s;
+    text-decoration: none;
+}
+.signInBtn:hover{
+    background-color: rgba(236, 236, 236, 0.849);
+    color: rgba(20, 20, 20, 0.925);
+}
+
+.signUpBtn{
+    color: #601719;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 0px 0px 0px 10px ;
+    transition: .5s;
+    text-decoration: none;
+
+}
+.signUpBtn:hover{
+    background-color: rgba(236, 236, 236, 0.849);
+    color: rgba(20, 20, 20, 0.925);
+}

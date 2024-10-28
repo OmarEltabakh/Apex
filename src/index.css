@@ -6,3 +6,20 @@
     font-weight: 600 !important;
     font-size: 20px !important;
   }
+
+.overlay{
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.952) 62%, #2e0000cb);
+}
+
+.sizeBackText{
+  color: transparent; /* يجعل النص شفافًا */
+  -webkit-text-stroke: 2px #60171967; /* لإضافة حد حول النص */
+  font-weight: bold; 
+  font-size: 300px;
+}
+
+.font{
+  font-family: "Agdasima", sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+}
