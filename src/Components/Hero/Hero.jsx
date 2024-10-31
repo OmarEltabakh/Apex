@@ -5,31 +5,29 @@ import style from './Hero.module.css'
 import { Link } from 'react-router-dom'
 
 const Hero = () => {
+
   return (
-    <div className="hero relative ">
-=======
     <div className="hero relative overflow-hidden  ">
->>>>>>> 4b83e6a6c34ff3ed2bfa754ea35d484dfde49f40
-        <div className='overlay absolute bgWaves w-100 h-[100%] sm:h-[91.5%] xs:h-[98%]'></div>
+        <div className='overlay absolute bgWaves w-100 h-[100%] '></div>
         <img className='w-full  vh-100 object-cover' src={HomeImg} alt='' />
-        <h2 className='absolute top-[20%] left-[15%] sizeBackText font md:!text-9xl md:top-[30%]'>EVENT 24</h2>
+        <h2 className='absolute top-[20%] left-[15%] sizeBackText font md:!text-[130px] sm:!text-[100px] xs:!text-[70px] md:left-[10%] md:top-[30%] xs:top-[35%]'>EVENT 24</h2>
         <div className="container absolute top-[40%] left-[10%]">
             <div className="row">
                 <div className="col-md-7 ">
-                    <h2 className='text-light !text-8xl md:!text-7xl sm:!text-6xl xs:!text-4xl fw-bold mb-4 font'>Welcome to Apex</h2>
-                    <p className='text-light/60 w-75'>
+                    <h1 className='text-light !text-8xl md:!text-8xl sm:!text-[55px] xs:!text-7xl fw-bold mb-4 font'>Welcome to Apex</h1>
+                    <p className='text-light/60 text-[17px] xs:text-[15px] w-75'>
                         Lorem ipsum dolor sit amet consectetur.
                          Donec sit diam nunc purus non sagittis lorem praesent
                          Donec sit diam nunc purus non 
                           ultrices.
                     </p>
-                    <div className="buttonG flex">
-                        <Link className={`${style.signInBtn}  `}>SignIn</Link>
-                        <Link className={`${style.signUpBtn}  `}>SignUp</Link>
+                    <div className="buttonG flex mt-4">
+                        <Link className={`${style.signInBtn}`}>SignIn</Link>
+                        <Link className={`${style.signUpBtn}`}>SignUp</Link>
                     </div>
                 </div>
                 <div className="col-md-5 block md:hidden">
-                    <img className='' src={heroCar} alt="" />
+                    <img src={heroCar} alt="" />
                 </div>
             </div>
         </div>
