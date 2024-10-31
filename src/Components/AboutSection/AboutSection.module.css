@@ -1,0 +1,123 @@
+.aboutSection {
+    min-height: 100vh;
+    background-color: #020202;
+    overflow: hidden;
+    position: relative;
+}
+
+.aboutContainer {
+    width: 89.5%;
+    margin: auto;
+}
+
+/* aboutDesciption===================================> */
+.aboutDesciption h2 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #EFEFEF;
+}
+
+.aboutDesciption p {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #EFEFEF;
+    margin-top: 33px !important;
+    /* width: 88%; */
+}
+
+.aboutDesciption button {
+    background: #FFFFFF;
+    color: #B31010;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 15px;
+    border: 2px 0px 0px 0px;
+    box-shadow: 0px 2px 4px 0px #601719;
+    border: 2px solid #9C1510;
+    margin-top: 33px !important;
+
+}
+
+/* aboutImageContainer================================> */
+.aboutImageContainer img {
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 8px #2a0d0d;
+
+}
+
+/* backgroundColor====================================> */
+.glow1 {
+    position: absolute;
+    width: 31.25rem;
+    height: 31.25rem;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.8), transparent 90%);
+    border-radius: 50%;
+    filter: blur(130px);
+    left: -10%;
+    bottom: 70%;
+}
+
+.glow2 {
+    position: absolute;
+    width: 31.25rem;
+    height: 31.25rem;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.8), transparent 70%);
+    border-radius: 50%;
+    filter: blur(130px);
+    right: -10%;
+    top: 70%;
+}
+
+/* responsive design==================================> */
+@media(max-width:1994px) {
+    :root {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:890px) {
+    :root {
+        font-size: 10px;
+    }
+
+    .aboutContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .aboutDesciption {
+        width: 80%;
+        padding-top: 20px;
+
+    }
+
+    .aboutImageContainer {
+        width: 80%;
+        justify-content: center;
+    }
+}
+
+@media(max-width:600px) {
+
+    :root {
+        font-size: 8px;
+    }
+
+    .aboutDesciption {
+        width: 95% !important;
+        padding-top: 20px;
+
+    }
+
+    .aboutImageContainer {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .aboutImage {
+        width: 100%;
+    }
+}

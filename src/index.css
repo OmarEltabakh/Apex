@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 .navLinks{
     font-weight: 600 !important;
     font-size: 20px !important;
@@ -22,4 +23,75 @@
   font-family: "Agdasima", sans-serif !important;
   font-weight: 700 !important;
   font-style: normal !important;
+=======
+
+* {
+  font-family: "Cairo", sans-serif;
+}
+
+.specialContainer {
+  width: 89.5%;
+  margin: auto;
+}
+
+
+
+.redborder {
+  border: 3px solid red;
+}
+
+.greenborder {
+  border: 5px solid green;
+}
+
+
+
+.navLinks {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+}
+
+.overlay {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.952) 62%, #2e0000cb);
+}
+
+.sizeBackText {
+  color: transparent;
+  -webkit-text-stroke: 2px #60171967;
+  font-weight: bold;
+  font-size: 300px;
+}
+
+
+
+
+/* responsive design=================================> */
+
+@media(max-width:1994px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media(max-width:890px) {
+  :root {
+    font-size: 10px;
+  }
+
+
+}
+
+@media(max-width:600px) {
+
+  :root {
+    font-size: 8px;
+  }
+  .specialContainer {
+    width: 95%;
+
+  }
+
+
+
+>>>>>>> 4b83e6a6c34ff3ed2bfa754ea35d484dfde49f40
 }
