@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className="hero relative  ">
+    <div className="hero relative overflow-hidden  ">
         <div className='overlay absolute bgWaves w-100 h-[100%] sm:h-[91.5%] xs:h-[98%]'></div>
         <img className='w-full  vh-100 object-cover' src={HomeImg} alt='' />
         <h2 className='absolute top-[20%] left-[15%] sizeBackText font md:!text-9xl md:top-[30%]'>EVENT 24</h2>

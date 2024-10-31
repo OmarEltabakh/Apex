@@ -7,11 +7,18 @@
   font-family: "Cairo", sans-serif;
 }
 
-.redborder{
+.specialContainer {
+  width: 89.5%;
+  margin: auto;
+}
+
+
+
+.redborder {
   border: 3px solid red;
 }
 
-.greenborder{
+.greenborder {
   border: 5px solid green;
 }
 
@@ -33,3 +40,35 @@
   font-size: 300px;
 }
 
+
+
+
+/* responsive design=================================> */
+
+@media(max-width:1994px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media(max-width:890px) {
+  :root {
+    font-size: 10px;
+  }
+
+
+}
+
+@media(max-width:600px) {
+
+  :root {
+    font-size: 8px;
+  }
+  .specialContainer {
+    width: 95%;
+
+  }
+
+
+
+}

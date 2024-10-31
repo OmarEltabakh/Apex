@@ -6,7 +6,7 @@
 }
 
 .aboutContainer {
-    width: 90%;
+    width: 89.5%;
     margin: auto;
 }
 
@@ -107,7 +107,7 @@
     }
 
     .aboutDesciption {
-        width: 95%;
+        width: 95% !important;
         padding-top: 20px;
 
     }

@@ -1,0 +1,36 @@
+.aboutPageSection2 {
+    min-height: 100vh;
+    background-color: #020202;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.container>div {
+    width: 80%;
+}
+
+
+/* backgroundColor====================================> */
+.glow1 {
+    position: absolute;
+    width: 31.25rem;
+    height: 31.25rem;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.8), transparent 90%);
+    border-radius: 50%;
+    filter: blur(130px);
+    right: -10%;
+    bottom: 70%;
+}
+
+.glow2 {
+    position: absolute;
+    width: 31.25rem;
+    height: 31.25rem;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.8), transparent 70%);
+    border-radius: 50%;
+    filter: blur(130px);
+    left: -10%;
+    top: 70%;
+}

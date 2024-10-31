@@ -1,0 +1,95 @@
+.AboutPageSection1 {
+    background-image: url(../../Images/racingImage.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+
+
+/* aboutSection1Desciption==================================> */
+.description h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.description p {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF;
+    padding-top: 20px;
+    width: 90%;
+}
+
+/* aboutSection1TeamImage=====================================> */
+.teamImage>div {
+    box-shadow: 0px 0px 10px 8px #2a0d0d;
+}
+
+/* responsive design============================================> */
+
+@media (max-width:1245px) {
+
+    .teamImage>div {
+        width: 100%;
+    }
+
+    .AboutPageSection1 {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .description {
+        width: 70%;
+        padding-top: 40px;
+    }
+
+    .teamImage {
+
+        width: 70%;
+    }
+
+}
+
+@media (max-width:1000px) {
+
+
+
+
+    .description {
+        width: 80%;
+    }
+
+    .teamImage {
+
+        width: 80%;
+    }
+
+}
+
+@media (max-width:700px) {
+
+
+
+
+    .description {
+        width: 100%;
+    }
+
+    .teamImage {
+
+        width: 100%;
+    }
+
+}
+

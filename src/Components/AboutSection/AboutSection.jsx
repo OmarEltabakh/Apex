@@ -1,17 +1,25 @@
 import React from 'react'
 import aboutImage from "../../Images/heroImg.jpeg"
-import style from './About.module.css'
+import style from './AboutSection.module.css'
+import { useNavigate } from 'react-router-dom'
 
 
-const About = () => {
+const AboutSection = () => {
 
 
 
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate('/about');
+  }
 
 
   return <>
 
     <section className={`${style.aboutSection}  flex `}>
+
+      {/* <==================================================container==================================================> */}
 
       <div className={`${style.aboutContainer}   flex`}>
 
@@ -31,8 +39,7 @@ const About = () => {
             many competitions inside and outside Egypt
           </p>
 
-          <button className='m-0'>Learn More</button>
-
+          <button onClick={handleNavigate} className='m-0'>Learn More</button>
         </div>
 
         {/* aboutImageContainer================================================> */}
@@ -59,4 +66,4 @@ const About = () => {
   </>
 }
 
-export default About
+export default AboutSection;  
