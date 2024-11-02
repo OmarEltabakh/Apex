@@ -1,3 +1,55 @@
+.hero{
+    background-image: url(../../Images/heroImg.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fontBack{
+    color: transparent;
+    -webkit-text-stroke: 2px #60171967;
+    font-weight: bold;
+    font-size: 15rem;
+    position: absolute;
+    top: 20%;
+
+}
+
+@media(max-width:1976px) {
+    .fontBack {
+      font-size: 22rem;
+    }
+  }
+  
+  @media(max-width:1360px) {
+    .fontBack {
+        font-size: 18rem;
+    }
+  
+  
+  }
+  
+  @media(max-width:1080px) {
+  
+    .fontBack {
+        font-size: 15rem;
+    }
+
+  }
+
+  @media(max-width:968px) {
+  
+    .fontBack {
+        font-size: 12rem;
+    }
+
+  }
+
+
 .signInBtn{
     color: white;
     font-size: 14px;

@@ -1,4 +1,4 @@
-import React, { useState ,useEffect } from 'react'
+import React, { useState ,useEffect} from 'react'
 import { Link, useLocation } from 'react-router-dom';
 import style from './Navbar.module.css'
 import logo from '../../Images/apexLogo.png'
@@ -36,7 +36,6 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
 
   const [isOpen , setIsOpen] = useState(false)
 
@@ -80,7 +79,7 @@ const Navbar = () => {
 initial={{scale:0 , opacity:0 , x:"-50%" , y:"-50%"}}
 animate={{scale:1 , opacity:1 }}
 transition={{duration:1}}
-className='z-30 login rounded-lg backdrop-blur-md bg-dark/50 py-[70px] min-w-[70vw] flex flex-col  justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+className='z-30 login rounded-lg backdrop-blur-md bg-dark/50 py-[70px] min-w-[70vw] flex flex-col  justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 '>
   <nav className='flex items-center flex-col justify-center w-100'>
     <CustomLink to='/'  title="Home"  className='mx-3 text-[18px] fw-bold text-decoration-none text-light' toggle={handelClick}/>
     <CustomLink to="/about" title="About Us" className='mx-3 text-[18px] fw-bold mt-2 text-decoration-none text-light' toggle={handelClick}/>
